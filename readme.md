@@ -25,3 +25,13 @@ To install the necessary Python packages, run:
 
 ```shell
 pip install csv hashlib json time requests boto3
+
+Usage
+First, import the necessary modules:
+
+import csv
+import hashlib
+import json
+import time
+import requests
+import boto3
