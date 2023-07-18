@@ -48,7 +48,7 @@ csv_data = [['Hostname', 'DeviceID', 'CPU_Spec', 'CPU_Util_1', 'CPU_Util_2', 'CP
 
 # Loop over the devices, only process the first 10 devices (to keep the list short)
 for i, device in enumerate(device_list_response.json()['devices']):
-    if i >= 10:  # Stop after processing 4 devices
+    if i >= 10:  # Stop after processing 10 devices
         break
 
     # Fetching device details
