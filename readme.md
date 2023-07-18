@@ -19,14 +19,6 @@ Additionally, the following Python packages are required:
 - requests
 - boto3
 
-## Installation
-
-To install the necessary Python packages, run:
-
-```shell
-pip install csv hashlib json time requests boto3
-```
-
 Usage
 First, import the necessary modules:
 
