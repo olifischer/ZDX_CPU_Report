@@ -44,7 +44,7 @@ requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 ```
 Configuration
 Several variables need to be set before running the script:
-
+```
 your_zdx_key_sec: Your ZDX key secret
 your_zdx_key_id: Your ZDX key ID
 your_aws_access_key_id: Your AWS access key ID
@@ -52,3 +52,4 @@ your_aws_secret_access_key: Your AWS secret access key
 your_s3_bucket_name: The name of your S3 bucket
 your_csv_file_name: The name of the CSV file you want to create
 These variables should be set in the variables.py file.
+```
